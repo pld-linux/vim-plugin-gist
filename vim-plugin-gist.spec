@@ -5,12 +5,11 @@ Summary:	Vim plugin: Gist
 Name:		vim-plugin-gist
 Version:	3.0
 Release:	%{gitver}.0.1
-License:	vim
+License:	Unknown, may we assume it is public domain?
 Group:		Applications/Editors/Vim
-Source0:	http://download.github.com/mattn-gist-vim-3.0-34-gd31d0e2.tar.gz
+Source0:	http://download.github.com/mattn-gist-vim-%{version}-34-gd31d0e2.tar.gz
 # Source0-md5:	1d27e6268e9091dda73420a359987beb
-URL:		http://vim-latex.sourceforge.net/
-# for _vimdatadir existence
+URL:		http://github.com/mattn/gist-vim
 Requires:	vim-rt >= 4:6.3.058-3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -18,7 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_vimdatadir	%{_datadir}/vim/vimfiles
 
 %description
-Vim plugin that allows to create, edit, delete and browse github gists.
+Vim plugin that allows to create, edit, delete and browse github
+gists.
 
 %prep
 %setup -qc
