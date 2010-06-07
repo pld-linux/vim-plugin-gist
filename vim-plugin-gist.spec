@@ -5,7 +5,7 @@ Summary:	Vim plugin: Gist
 Name:		vim-plugin-gist
 Version:	3.0
 Release:	%{gitver}.0.1
-License:	Unknown, may we assume it is public domain?
+License:	BSD
 Group:		Applications/Editors/Vim
 Source0:	http://download.github.com/mattn-gist-vim-%{version}-34-gd31d0e2.tar.gz
 # Source0-md5:	1d27e6268e9091dda73420a359987beb
