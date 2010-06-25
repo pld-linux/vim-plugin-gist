@@ -1,14 +1,15 @@
 # TODO:
 # - What to do with .vimup file?
-%define		gitver 34
+%define		subver 34
+%define		rel 0.1
 Summary:	Vim plugin: Gist
 Name:		vim-plugin-gist
 Version:	3.0
-Release:	%{gitver}.0.1
+Release:	%{subver}.%{rel}
 License:	BSD
 Group:		Applications/Editors/Vim
-Source0:	http://download.github.com/mattn-gist-vim-%{version}-34-gd31d0e2.tar.gz
-# Source0-md5:	1d27e6268e9091dda73420a359987beb
+Source0:	http://github.com/mattn/gist-vim/tarball/%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	86e4ec33cf3ee0d4c98158c2702a90e3
 URL:		http://github.com/mattn/gist-vim
 Requires:	vim-rt >= 4:6.3.058-3
 BuildArch:	noarch
