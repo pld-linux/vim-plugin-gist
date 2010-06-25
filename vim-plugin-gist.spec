@@ -1,15 +1,14 @@
 # TODO:
 # - What to do with .vimup file?
-%define		rel 0.1
 Summary:	Vim plugin: Gist
 Name:		vim-plugin-gist
 Version:	3.7
-Release:	%{rel}
+Release:	0.1
 License:	BSD
 Group:		Applications/Editors/Vim
-Source0:	http://www.vim.org/scripts/download_script.php%3Fsrc_id%3D13105#gist.vim
+Source0:	http://www.vim.org/scripts/download_script.php?src_id=13105#/gist.vim
 # Source0-md5:	4c7c6cbe627d3bd474a9bd3c5efb659e
-URL:		http://www.vim.org/scripts/script.php%3Dscript_id%3F2423
+URL:		http://www.vim.org/scripts/script.php?script_id=2423
 Requires:	vim-rt >= 4:6.3.058-3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
