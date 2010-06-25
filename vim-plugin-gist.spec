@@ -1,9 +1,7 @@
-# TODO:
-# - What to do with .vimup file?
 Summary:	Vim plugin: Gist
 Name:		vim-plugin-gist
 Version:	3.7
-Release:	0.1
+Release:	1
 License:	BSD
 Group:		Applications/Editors/Vim
 Source0:	http://www.vim.org/scripts/download_script.php?src_id=13105#/gist.vim
